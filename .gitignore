@@ -1,5 +1,6 @@
 node_modules
 .env
 dist
+log
 .devcontainer/docker/log
 .devcontainer/docker/vol
