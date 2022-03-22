@@ -22,15 +22,14 @@ password: `123456`
 ## Available endpoint to test
 
 ### /auth
-`http://localhost:3000/v1/auth/logout`  
-`http://localhost:3000/v1/auth/refresh`  
-`http://localhost:3000/v1/auth/login`  
-`http://localhost:3000/v1/auth/login`  
-`http://localhost:3000/v1/auth/register`  
+GET `http://localhost:3000/v1/auth/logout`    - logout the user  
+GET `http://localhost:3000/v1/auth/refresh`   - refresh user token  
+POST `http://localhost:3000/v1/auth/login`    - login the user   
+POST `http://localhost:3000/v1/auth/register` - register the user  
 
 ### /staff
-`http://localhost:3000/v1/staff/1`  
-`http://localhost:3000/v1/staff/2`  
-`http://localhost:3000/v1/staff/3`  
-`http://localhost:3000/v1/staff`  
-`http://localhost:3000/v1/staff`  
+PUT `http://localhost:3000/v1/staff/1`  - update staff  
+GET `http://localhost:3000/v1/staff/2`  - get staff  
+DEL `http://localhost:3000/v1/staff/3`  - del staff  
+POST `http://localhost:3000/v1/staff`   - create staff  
+GET `http://localhost:3000/v1/staff`    - get all staff  
