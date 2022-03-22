@@ -1,9 +1,15 @@
 # Nodejs Express Framework with Ts
 
 ## How to test drive the project
+Clone repo `git@github.com:slier81/Nodejs-Api-Framework.git NodeApi`
+
+Cd to directory `cd NodeApi`
+
+Open with VsCode `code .` ( Let VsCode build all the things its needed )
+
 Run `npm install`
 
-Create database name `nodejs_api`
+Create database name `nodejs_api` ( in mysql, since this project use mysql by default. Can be configured with other db )
 
 Run migration
 - `knex migrate:latest`
