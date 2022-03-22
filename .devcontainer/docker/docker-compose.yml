@@ -1,0 +1,76 @@
+version: '3.8'
+
+services:
+
+  mailhog:
+    build: ./img/mailhog
+    image: mailhog
+    container_name: mailhog
+    ports:
+      - '${MAILHOG_PORT1:?}:1025'
+      - '${MAILHOG_PORT2:?}:8025'
+    networks:
+      - appnet
+
+  mysql:
+    build: ./img/mysql
+    image: mysql
+    container_name: mysql
+    ports:
+      - '${MYSQL_PORT:?}:3306'
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:?}
+      MYSQL_ALLOW_EMPTY_PASSWORD: "no"
+    volumes:
+      - '${MYSQL_VOL_DIR:?}:/var/lib/mysql' #Make sure host volume is already exist prior to run docker compose
+      - '${MYSQL_LOG_DIR:?}:/var/log/mysql' #Make sure host volume is already exist prior to run docker compose 
+      - '${MYSQL_CNF_DIR:?}:/etc/mysql/conf.d'
+    networks:
+      - appnet
+    restart: always
+
+  node:
+    build: ./img/node
+    image: node
+    container_name: node
+    volumes:
+      - ./../..:/usr/app
+      - /usr/app/node_modules
+    tty: true
+    networks:
+      - appnet
+
+  rabbitmq:
+    build: ./img/rabbitmq
+    image: rabbitmq
+    container_name: rabbitmq
+    ports:
+      - '${RABBITMQ_PORT_1:?}:5672'
+      - '${RABBITMQ_PORT_2:?}:15672'
+    environment:
+      RABBITMQ_DEFAULT_USER: ${RABBITMQ_DEFAULT_USER:?}
+      RABBITMQ_DEFAULT_PASS: ${RABBITMQ_DEFAULT_PASS:?}
+      RABBITMQ_DEFAULT_VHOST: ${RABBITMQ_DEFAULT_VHOST:?}
+    volumes:
+      - '${RABBITMQ_VOL_DIR:?}:/var/lib/rabbitmq/mnesia' #Make sure host volume is already exist prior to run docker compose
+      - '${RABBITMQ_LOG_DIR:?}:/var/log/rabbitmq' #Make sure host volume is already exist prior to run docker compose
+    networks:
+      - appnet
+    restart: always
+
+  redis:
+    build: ./img/redis
+    image: redis
+    container_name: redis
+    ports:
+      - '${REDIS_PORT:?}:6379'
+    volumes:
+      - '${REDIS_VOL_DIR:?}:/data' #Make sure host volume is already exist prior to run docker compose
+    networks:
+      - appnet
+    restart: always
+
+networks:
+  appnet:
+    name: appnet
+    driver: bridge

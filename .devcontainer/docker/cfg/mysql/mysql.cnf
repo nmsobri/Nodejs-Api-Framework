@@ -1,0 +1,19 @@
+[mysqld]
+sql-mode		      = ""
+pid-file                      = /var/run/mysqld/mysqld.pid
+socket           	      = /var/run/mysqld/mysqld.sock
+datadir                       = /var/lib/mysql
+secure-file-priv              = NULL
+character-set-server          = utf8mb4
+collation-server 	      = utf8mb4_unicode_ci
+default-authentication-plugin = mysql_native_password
+
+general_log                   = 1
+general_log_file              = /var/log/mysql/query.log
+
+slow_query_log                = 1
+long_query_time               = 2
+slow_query_log_file           = /var/log/mysql/slow.log
+log_queries_not_using_indexes = 0
+
+log_error                     = /var/log/mysql/error.log

@@ -1,0 +1,81 @@
+Error  Cors not allowed
+GET  /  undefined  Cors not allowed
+GET  /asdfadsf  undefined  Cors not allowed
+GET  /v1  undefined  ENOENT: no such file or directory, stat '/usr/app/dist/view/admin/index.html'
+GET  /v1  undefined  ENOENT: no such file or directory, stat '/usr/app/dist/view/admin/index.html'
+GET  /v1/employees  undefined  ENOENT: no such file or directory, stat '/usr/app/view/admin/index.html'
+GET  /v1/staff  undefined  ENOENT: no such file or directory, stat '/usr/app/view/admin/index.html'
+GET  /v1/staff  undefined  ENOENT: no such file or directory, stat '/usr/app/view/admin/index.html'
+GET  /v1/staff  undefined  ENOENT: no such file or directory, stat '/usr/app/view/admin/index.html'
+POST  /v1/staff  undefined  Unexpected token ' in JSON at position 20
+PUT  /v1/staff/3  undefined  Cannot set headers after they are sent to the client
+POST  /v1/auth/register  undefined  object is not iterable (cannot read property Symbol(Symbol.iterator))
+POST  /v1/auth/register  undefined  Cannot set headers after they are sent to the client
+POST  /v1/auth/register  undefined  Cannot set headers after they are sent to the client
+POST  /v1/auth/register  undefined  Cannot set headers after they are sent to the client
+POST  /v1/auth/login  undefined  Cannot set headers after they are sent to the client
+POST  /v1/auth/login  undefined  Cannot set headers after they are sent to the client
+POST  /v1/auth/login  undefined  Cannot set headers after they are sent to the client
+GET  /v1/staff  undefined  Cannot set headers after they are sent to the client
+GET  /v1/staff  undefined  Cannot set headers after they are sent to the client
+GET  /v1/staff  undefined  Cannot set headers after they are sent to the client
+GET  /v1/staff  undefined  Cannot set headers after they are sent to the client
+GET  /v1/staff  undefined  Cannot set headers after they are sent to the client
+GET  /v1/staff  undefined  Cannot set headers after they are sent to the client
+GET  /v1/staff  undefined  Cannot set headers after they are sent to the client
+GET  /v1/staff  undefined  Cannot set headers after they are sent to the client
+GET  /v1/staff  undefined  Cannot set headers after they are sent to the client
+GET  /v1/staff  undefined  Cannot set headers after they are sent to the client
+GET  /v1/staff  undefined  Cannot set headers after they are sent to the client
+GET  /v1/staff  undefined  Cannot set headers after they are sent to the client
+GET  /v1/staff  undefined  Cannot set headers after they are sent to the client
+GET  /v1/staff  undefined  Cannot set headers after they are sent to the client
+GET  /v1/staff  undefined  Cannot set headers after they are sent to the client
+GET  /v1/staff  undefined  Cannot set headers after they are sent to the client
+GET  /v1/staff  undefined  Cannot set headers after they are sent to the client
+GET  /v1/staff  undefined  Cannot set headers after they are sent to the client
+GET  /v1/staff  undefined  Cannot set headers after they are sent to the client
+GET  /v1/staff  undefined  Cannot set headers after they are sent to the client
+GET  /v1/staff  undefined  Cannot set headers after they are sent to the client
+GET  /v1/staff  undefined  Cannot set headers after they are sent to the client
+GET  /v1/staff  undefined  Cannot set headers after they are sent to the client
+GET  /v1/staff  undefined  Cannot set headers after they are sent to the client
+GET  /v1/staff  undefined  Cannot set headers after they are sent to the client
+POST  /v1/staff  undefined  Cannot set headers after they are sent to the client
+GET  /v1/staff  undefined  Cannot set headers after they are sent to the client
+GET  /v1/staff  undefined  Cannot set headers after they are sent to the client
+GET  /v1/staff  undefined  Cannot set headers after they are sent to the client
+POST  /v1/staff  undefined  Cannot read properties of undefined (reading 'id')
+POST  /v1/staff  undefined  Cannot read properties of undefined (reading 'id')
+POST  /v1/staff  undefined  Cannot read properties of undefined (reading 'id')
+POST  /v1/staff  undefined  Cannot read properties of undefined (reading 'id')
+POST  /v1/staff  undefined  Cannot read properties of undefined (reading 'id')
+POST  /v1/staff  undefined  Cannot read properties of undefined (reading 'id')
+POST  /v1/staff  undefined  Cannot read properties of undefined (reading 'id')
+POST  /v1/staff  undefined  Cannot read properties of undefined (reading 'id')
+POST  /v1/staff  undefined  Cannot read properties of undefined (reading 'id')
+POST  /v1/staff  undefined  Cannot read properties of undefined (reading 'id')
+POST  /v1/staff  undefined  Cannot read properties of undefined (reading 'id')
+POST  /v1/staff  undefined  Cannot read properties of undefined (reading 'id')
+POST  /v1/staff  undefined  Cannot read properties of undefined (reading 'id')
+POST  /v1/staff  undefined  Cannot read properties of undefined (reading 'id')
+POST  /v1/staff  undefined  Cannot read properties of undefined (reading 'id')
+POST  /v1/staff  undefined  Cannot read properties of undefined (reading 'id')
+POST  /v1/staff  undefined  Cannot read properties of undefined (reading 'id')
+POST  /v1/staff  undefined  Cannot read properties of undefined (reading 'id')
+GET  /v1/staff  undefined  Cannot set headers after they are sent to the client
+POST  /v1/staff  undefined  Cannot set headers after they are sent to the client
+GET  /v1/staff  undefined  Cannot set headers after they are sent to the client
+GET  /v1/staff  undefined  Cannot set headers after they are sent to the client
+GET  /v1/staff/1  undefined  Cannot set headers after they are sent to the client
+GET  /v1/staff/1  undefined  Cannot set headers after they are sent to the client
+POST  /v1/staff  undefined  Cannot set headers after they are sent to the client
+GET  /v1/staff  undefined  Cannot set headers after they are sent to the client
+GET  /v1/staff  undefined  Cannot set headers after they are sent to the client
+GET  /v1/staff  undefined  Cannot set headers after they are sent to the client
+GET  /v1/staff  undefined  Cannot set headers after they are sent to the client
+GET  /v1/staff  undefined  Cannot set headers after they are sent to the client
+GET  /v1/staff  undefined  Cannot set headers after they are sent to the client
+GET  /v1/staff  undefined  Cannot set headers after they are sent to the client
+GET  /v1/staff  undefined  Cannot read properties of undefined (reading 'staffService')
+GET  /v1/staff  undefined  Cannot read properties of undefined (reading 'staffService')
