@@ -19,6 +19,8 @@ Database will have default user:
 username: `slier`  
 password: `123456`  
 
+Run `npm start`
+
 ## Available endpoint to test
 
 ### /auth
